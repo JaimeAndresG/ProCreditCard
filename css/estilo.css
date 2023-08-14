@@ -1,0 +1,81 @@
+.container{
+    background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.25) 200%);
+    background-blend-mode: multiply;
+    background-size: cover;
+    width: 430px;
+    padding: 30px;
+    border-radius: 40px;
+
+}
+
+body {
+    background-image: linear-gradient(to right, #a8caba 0%, #5d4157 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+
+.top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.top .logo{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.top .logo img{
+    width: 90px;
+
+}
+
+.top .logo p{
+    font-size: 16px;
+}
+
+.top .chip img{
+    width: 70px;
+}
+
+.bottom{
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom .number{
+    margin: 20px 0;
+
+}
+
+.bottom .number h3{
+    font-size: 14px;
+}
+
+
+.bottom .number p {
+    font-size: 24px;
+    letter-spacing: 3px;
+    word-spacing: 3px;
+}
+
+.bottom .nameDate{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bottom .nameDate .name {
+    align-self: flex-end;
+    letter-spacing: 1px;
+}
+
+.bottom .nameDate .date .valid{
+    font-size: 12px;
+}
